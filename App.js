@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>etec profesor milton</Text>
+      <Text style={styles.italicText}>3º série</Text>
+      <Text style={{ textDecorationLine: 'line-through' }}>Texto Riscado</Text>    
       <StatusBar style="auto" />
     </View>
   );
@@ -16,5 +18,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  italicText: {
+    fontStyle: 'italic',
   },
 });
